@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-class</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .button{
+            height:25px;
+            width:150px;
+            background-color: forestgreen;
+            border: 3px solid black;
+            border-radius:10px;
+            margin:3px;
+            padding:2px;
+            /* /* transition-property: all;
+            transition-duration:1s;
+            transition-timing-function:ease-in-out;
+            transition-delay:0s; */
+             transition: all 1s ease-in-out  0s; 
+        }
+        .button:hover{
+            background-color:lightcoral;
+            height:30px;
+            width:160px;
+        }
+        .button:active{
+            background-color: blue;
+            height:30px;
+            width:160px;
+        }
+    </style>
+</head>
+<body>
+    <button class="button">learning pseudo</button>
+    
+</body>
+</html>
